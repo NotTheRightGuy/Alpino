@@ -1,7 +1,8 @@
 {
-    "name": "jami-frontend",
+    "name": "alpino",
     "private": true,
     "version": "1.0.0",
+    "description": "Alpino is a modern, fast and easy to use web framework for building user interfaces.",
     "type": "module",
     "scripts": {
         "dev": "vite",
@@ -9,6 +10,21 @@
         "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
         "preview": "vite preview"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/NotTheRightGuy/Alpino.git"
+    },
+    "keywords": [
+        "react",
+        "vite",
+        "redux",
+        "tailwindcss",
+        "chakra-ui",
+        "clerk",
+        "typescript"
+    ],
+    "author": "NotTheRightGuy",
+    "license": "MIT",
     "dependencies": {
         "@chakra-ui/react": "^2.8.0",
         "@clerk/clerk-react": "^4.23.2",
